@@ -11,8 +11,10 @@ namespace cscomment
         static void Main(string[] args)
         {
             int x, y;
+            //주석 부분
             x = int.Parse(Console.ReadLine());
             y = int.Parse(Console.ReadLine());
+            //
 
 
 
@@ -21,6 +23,7 @@ namespace cscomment
                 if (y > 2)
                 {
                     Console.WriteLine(x * y);
+                    
                 }
             }
             else
